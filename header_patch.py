@@ -1,0 +1,29 @@
+with gr.Box(visible=is_spaces):
+    if(is_spaces and is_shared_ui):
+        gr.HTML(f'''
+        <div class="gr-prose" style="max-width: 80%">
+            <p></p>
+            <br>
+            <p>Halooo... Semua... Lama ga jumpa nih, disini saya membagikan Stable diffusion Alternative dengan Sistem cloud inference di HuggingFace Spaces 🤗</p>
+            <p>*Bagi yang mau support saya bisa menuju Saweria, KO-FI dan Trakteer dibawah ini*</p>
+            <p><a href="https://saweria.co/VorstCavry"><img alt="Saweria" src="https://img.shields.io/badge/Saweria-7B3F00?style=for-the-badge&logo=ko-fi&logoColor=white"/></a> <a href="https://ko-fi.com/vorstcavry"><img alt="KO-FI" src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white "/></a> <a href="https://trakteer.id/vorstcavry/tip"><img alt="YOUTUBE" src="https://img.shields.io/badge/trakteer-F16061?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white"/></a><a href="https://wa.me/6285726996330"><img alt="Whatsapp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a> <a href="https://www.youtube.com/@remajapekalongan"><img alt="YOUTUBE" src="https://img.shields.io/badge/YouTube-%23FF0000?style=for-the-badge&logo=YouTube&logoColor=white"/></a><a href="https://www.paypal.com/paypalme/vorstcavry?country.x=ID&locale.x=id_ID"><img alt="PAYPAL" src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white"/></a><a href="https://www.instagram.com/vorst_cavry/"><img alt="INSTAGRAM" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a> <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fvorstcavry"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fvorstcavry&label=VISITORS&countColor=%23263759&labelStyle=none" /></a></p> 
+        </div>
+        ''')
+    elif(is_spaces):
+        import torch
+        if(not torch.cuda.is_available()):
+            gr.HTML(f'''
+            <div class="gr-prose" style="max-width: 80%">
+                <p>Halooo... Semua... Lama ga jumpa nih, disini saya membagikan Stable diffusion Alternative dengan Sistem cloud inference di HuggingFace Spaces 🤗</p>
+                <p>*Bagi yang mau support saya bisa menuju Saweria, KO-FI dan Trakteer dibawah ini*</p>
+                <p><a href="https://saweria.co/VorstCavry"><img alt="Saweria" src="https://img.shields.io/badge/Saweria-7B3F00?style=for-the-badge&logo=ko-fi&logoColor=white"/></a> <a href="https://ko-fi.com/vorstcavry"><img alt="KO-FI" src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white "/></a> <a href="https://trakteer.id/vorstcavry/tip"><img alt="YOUTUBE" src="https://img.shields.io/badge/trakteer-F16061?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white"/></a><a href="https://wa.me/6285726996330"><img alt="Whatsapp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a> <a href="https://www.youtube.com/@remajapekalongan"><img alt="YOUTUBE" src="https://img.shields.io/badge/YouTube-%23FF0000?style=for-the-badge&logo=YouTube&logoColor=white"/></a><a href="https://www.paypal.com/paypalme/vorstcavry?country.x=ID&locale.x=id_ID"><img alt="PAYPAL" src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white"/></a><a href="https://www.instagram.com/vorst_cavry/"><img alt="INSTAGRAM" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a> <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fvorstcavry"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fvorstcavry&label=VISITORS&countColor=%23263759&labelStyle=none" /></a></p> 
+            </div>
+        ''')
+        else:
+            gr.HTML(f'''
+            <div class="gr-prose" style="max-width: 80%">
+                <p>Halooo... Semua... Lama ga jumpa nih, disini saya membagikan Stable diffusion Alternative dengan Sistem cloud inference di HuggingFace Spaces 🤗</p>
+                <p>*Bagi yang mau support saya bisa menuju Saweria, KO-FI dan Trakteer dibawah ini*</p>
+                <p><a href="https://saweria.co/VorstCavry"><img alt="Saweria" src="https://img.shields.io/badge/Saweria-7B3F00?style=for-the-badge&logo=ko-fi&logoColor=white"/></a> <a href="https://ko-fi.com/vorstcavry"><img alt="KO-FI" src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white "/></a> <a href="https://trakteer.id/vorstcavry/tip"><img alt="YOUTUBE" src="https://img.shields.io/badge/trakteer-F16061?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white"/></a><a href="https://wa.me/6285726996330"><img alt="Whatsapp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a> <a href="https://www.youtube.com/@remajapekalongan"><img alt="YOUTUBE" src="https://img.shields.io/badge/YouTube-%23FF0000?style=for-the-badge&logo=YouTube&logoColor=white"/></a><a href="https://www.paypal.com/paypalme/vorstcavry?country.x=ID&locale.x=id_ID"><img alt="PAYPAL" src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white"/></a><a href="https://www.instagram.com/vorst_cavry/"><img alt="INSTAGRAM" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a> <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fvorstcavry"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fvorstcavry&label=VISITORS&countColor=%23263759&labelStyle=none" /></a></p> 
+            </div>
+        ''')
